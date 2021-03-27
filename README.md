@@ -1,2 +1,2 @@
 # MicroProxy
-Use Go to ahieve Proxy
+*Use Go to ahieve Proxy
