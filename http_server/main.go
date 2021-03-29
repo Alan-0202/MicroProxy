@@ -12,8 +12,10 @@ var (
 
 
 func main(){
-	mux := http.NewServeMux()
 
+	// Create the route Mux
+	mux := http.NewServeMux()
+	//Give the route
 	mux.HandleFunc("/bye", sayBye)
 
 	server := &http.Server{

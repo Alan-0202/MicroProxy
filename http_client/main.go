@@ -24,6 +24,7 @@ func main(){
 //	create client
 	client := &http.Client{
 		Timeout: time.Second * 30,
+		//Use the connection pool
 		Transport: transport,
 	}
 
